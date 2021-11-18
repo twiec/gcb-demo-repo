@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    html = "<h3>Hello, World! Test Cloud Build CI/CD V.1</h3>"
+    html = "<h3>Hello, World! Test Cloud Build CI/CD V.2 Test git repo</h3>"
     return html
 
 if __name__ == "__main__":
